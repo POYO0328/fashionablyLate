@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid rgba(138, 121, 103, 0.4);
+  text-align: center;
+}
+
+.header__inner {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+}
+
+.header__logo {
+  font-family: 'Noto Serif JP', serif;
+  color: #8a7967;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.contact-form__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+}
+
+.contact-form__heading {
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+  color: #8a7967;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form__label--required {
+  color: #ff0000;
+}
+
+.form__error {
+  height: 20px;
+  color: #ff0000;
+  text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+  padding: 10px;
+  width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  appearance: none;
+}
+
+.form__input--text input {
+  height: 30px;
+  border: 0px solid #ddd;
+  appearance: none;
+  background: #f5f5f5;
+}
+
+.form__input--textarea textarea {
+  height: 180px;
+  border: 0px solid #ddd;
+  appearance: none;
+  background: #f5f5f5;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  width: 120px;
+  height: 35px;
+  border: none;
+  background: #8a7967;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__label--item{
+  color: #8a7967;
+  font-weight: bold;
+}
+
+.form__group-content-radio label {
+  display: inline-block;
+  color: #8a7967;
+  font-weight: bold;
+}
+.form__group-content-radio {
+  color: #8a7967;
+  font-weight: bold;
+  text-align: left;
+  flex: 1;
+  margin-left: 190px;
+}
+
+.create-form__item-select{
+  padding: 10px;
+  width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+
+  appearance: none;
+  border: 0px solid #ddd;
+  appearance: none;
+  background: #f5f5f5;
+}
+
+.form__input--text-name{
+  display: flex;
+  gap: 40px;
+  /* 入力欄同士の隙間 */
+  height: 30px;
+  width: 600px;
+  appearance: none;
+}
+
+.form__input--text-phone{
+  display: flex;
+  gap: 20px;
+  /* 入力欄同士の隙間 */
+  height: 30px;
+  width: 600px;
+  appearance: none;
+}
+
+.form__input--text-phone input {
+  height: 30px;
+  border: 0px solid #ddd;
+  appearance: none;
+  background: #f5f5f5;
+}
+
+.form__input--text-name input {
+  height: 30px;
+  border: 0px solid #ddd;
+  appearance: none;
+  background: #f5f5f5;
+}

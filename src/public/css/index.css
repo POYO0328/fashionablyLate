@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+.todo__alert--success {
+    padding: 10px 30px;
+    border-color: #badbcc;
+    background-color: hsl(153, 31%, 86%);
+    color: #0f5132;
+}
+
+.todo__alert--danger {
+    padding: 10px 0;
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
+}
+
+.todo__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.section__title {
+    font-family: 'Noto Serif JP', serif;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    color: #8a7967;
+    height:100px;
+    padding: 30px;
+
+}
+h2 {
+    font-weight: 700;
+}
+
+.create-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 86%;
+    text-align: center;
+}
+
+.create-form__item{
+    display: flex;
+    width: 70%;
+}
+
+.search-form__item {
+    display: flex;
+    width: 70%;
+}
+
+.create-form__item-input{
+    margin-right: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.search-form__item-input {
+    padding: 10px;
+    width: 60%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f5f5f5;
+    color: #8a7967;
+}
+
+.search-form__item-input_time{
+    padding: 10px;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f5f5f5;
+    color: #8a7967;
+}
+
+.create-form__item-select{
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.search-form__item-select {
+    padding-left: 5px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    background: #f5f5f5;
+    color: #8a7967;
+}
+
+.search-form__item-select_gender {
+    padding-left: 20px;
+    width: 15%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    background: #f5f5f5;
+    color: #8a7967;
+}
+
+.create-form__button {
+    width: 80px;
+}
+
+.create-form__button-submit{
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #8a7967;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form__button {
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    /* 左に揃える */
+    gap: 20px;
+    /* ボタン間の間隔 */
+}
+
+.search-form__button-submit {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #8a7967;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form__button-reset {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #D9C5B5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-table__row td {
+    padding-top: 20px;
+}
+
+.todo-table__header th:first-child {
+    padding-left: 20px; /* 適宜調整 */
+}
+
+.todo-table {
+    margin: 40px auto;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.todo-table__inner {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.todo-table__row {
+  background-color: #f9f9f9;
+}
+
+.todo-table__header, .contact-table__item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-table__header {
+  font-weight: bold;
+  color: #fff;
+  background: #8a7967;
+}
+
+.contact-table__item {
+  text-align: left;
+}
+
+.contact-table__row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.todo-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-form__item {
+    line-height: 50%;
+}
+
+.contact-table__row {
+    border: 1px solid #ddd;
+    /* 枠線の色を指定 */
+    padding: 10px;
+    /* 内側の余白 */
+    color: #8a7967;
+    font-size: 18px;
+}
+
+.update-form__item-input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.update-form__item-p {
+    text-align: left;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.update-form__button {
+    width: 50px;
+}
+
+.delete-form__button {
+    width: 50px;
+}
+
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.custom-close-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 名前のセル */
+.contact-table__row td:nth-child(1) {
+    text-align: left;
+    padding-left: 70px;
+
+}
+
+/* 性別のセル */
+.contact-table__row td:nth-child(2) {
+    text-align: left;
+}
+
+/* メールのセル */
+.contact-table__row td:nth-child(3) {
+    text-align: left;
+}
+
+/* お問い合わせの種類 */
+.contact-table__row td:nth-child(4) {
+    text-align: left ;
+}
+
+.detail-button{
+    font-family: 'Noto Serif JP', serif;
+    color: #8a7967;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #dcdcdc;
+    text-align: center;
+    margin-left: auto;
+    width: 80px;
+    height: 35px;
+    margin-right: 100px;
+}
+
+.modal-body {
+    color: #8a7967;
+    /* モーダルの本文の文字色 */
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: right;
+    padding: 10px 0;
+    padding-right: 95px;
+    list-style: none;
+}
+
+.page-item {
+    margin: 0 3px;
+}
+
+.page-link {
+    font-size: 12px;
+    /* 小さくする */
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.page-item.active .page-link {
+    background-color:#8a7967;
+    color: white;
+    border-color: #8B4513;
+}

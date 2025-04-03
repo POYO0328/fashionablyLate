@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid rgba(138, 121, 103, 0.4);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    background: #fff;
+    display: inline-block;
+    width: 90%;
+    height: 100px;
+}
+
+.header__logo {
+    font-family: 'Noto Serif JP', serif;
+    color: #8a7967;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    font-family: 'Noto Serif JP', serif;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8a7967;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+input[readonly] {
+    color: #8a7967;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 25%;
+    border-bottom: 1px solid #ddd;
+    background-color: #BBA99A;
+    color: #fff;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 30px;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 11%;
+    height: 30px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    background: #8a7967;
+}
+
+.form__edit_link{
+    margin-left: 30px;
+    color: #8a7967
+}
